@@ -1,7 +1,7 @@
 {
   "name": "woocommerce-api",
   "description": "A Node.js wrapper for the WooCommerce REST API",
-  "version": "1.4.2",
+  "version": "1.5.0",
   "scripts": {
     "lint": "jshint .",
     "checkStyle": "jscs .",
@@ -20,15 +20,16 @@
   "license": "MIT",
   "main": "index.js",
   "dependencies": {
-    "bluebird": "^3.4.6",
-    "oauth-1.0a": "^2.0.0",
-    "request": "^2.75.0"
+    "bluebird": "3.5.5",
+    "create-hmac": "1.1.7",
+    "oauth-1.0a": "2.2.6",
+    "request": "2.88.0"
   },
   "devDependencies": {
     "chai": "^3.5.0",
     "istanbul": "^0.4.5",
-    "jscs": "^3.0.7",
-    "jshint": "^2.9.3",
+    "jscs": "3.0.7",
+    "jshint": "2.10.2",
     "mocha": "^3.1.0",
     "nock": "^8.0.0"
   },
